@@ -1,32 +1,44 @@
 #picOfMe{
+    align-self: center;
     width: 125px;
     height: 125px;
     box-sizing: border-box;
     border-radius: 5%;
+    margin-top: 150px;
+    
 }
 
 #content{
-    top:3em;
+    /* top:3em; */
     position: relative;
     margin-left: 165px;
+    display: flex;
+    flex-direction: column;
 }
 
 #sideMenue{
     position: fixed;
-    left: 4px;
-    top: 3em;
+    left: 0px;
+    right: 0px;
+    /* top: 3em; */
     width: 145px;
-    /* background-color: #d6bd91; */
-    padding-left: 1.5em;
+    text-align: center;
+    /* padding-left: 1em; */
+    height: 100%;
+    background-color: 	#d3d3d3;
+    margin-left: 0px;
+    
 }
 
 .socialLink{
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
 }
 
 .mediaIcon{
     display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 
@@ -36,3 +48,32 @@
     padding: 4px;
     margin: 5px;
 }
+
+.contactPic{
+    top:17px;
+    height:17px;
+    margin: 2px;
+}
+
+.contactLetter{
+    font-size: 0.53em ;
+    margin-left: 5px;
+    margin-top: 1px;
+}
+
+.contact{
+    display: flex;
+}
+
+.contactInfo{
+    margin-left: 4px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    text-align: center;
+  }
