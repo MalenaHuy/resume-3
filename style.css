@@ -8,7 +8,7 @@
     
 }
 
-#content{
+#leftSideBar{
     /* top:3em; */
     position: relative;
     margin-left: 165px;
@@ -26,9 +26,10 @@
     /* padding-left: 1em; */
     height: 100%;
     background-color: 	#d3d3d3;
-    margin-left: 0px;
-    
+    margin-left: 0px;  
 }
+
+
 
 .socialLink{
     width: 35px;
@@ -48,16 +49,17 @@
     padding: 4px;
     margin: 5px;
     margin-left: 10px;
+    margin-top: 15px
 }
 
 .contactPic{
-    top:17px;
-    height:17px;
+    top:25px;
+    height:25px;
     margin: 2px;
 }
 
 .contactLetter{
-    font-size: 0.53em ;
+    font-size: 1em ;
     margin-left: 5px;
     margin-top: 1px;
 }
@@ -78,3 +80,17 @@
     font-size: 14px;
     text-align: center;
   }
+
+.sideList{
+      margin-bottom: 15px;
+  }
+
+#topList{
+    margin-top: 18px;
+}
+
+H1{
+    margin-top: 50px;
+    color: darkslategray;
+    font-size: 50px;
+}
