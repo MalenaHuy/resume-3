@@ -102,6 +102,7 @@ H1{
 }
 
 h4{
+    margin-top: 20px;
     color: darkslategray;   
 }
 
@@ -137,4 +138,17 @@ h4{
 
 .projectLink{
     display: flex;
+}
+
+@media screen and (min-width: 1240px) {
+    body{
+        margin-right: 450px;
+    }
+}
+
+@media  screen and (max-width: 824px) {
+    .flexSkill{
+        display: flex;
+        flex-direction: column;
+    }
 }
