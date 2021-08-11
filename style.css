@@ -140,6 +140,17 @@ h4{
     display: flex;
 }
 
+.requirement{
+    margin-left: 35px;
+    margin-bottom: 0px;
+}
+
+.requirementsList{
+    margin-top: none;
+    margin-left: 25px;
+    margin-bottom: 0px;
+}
+
 @media screen and (min-width: 1240px) {
     body{
         margin-right: 450px;
